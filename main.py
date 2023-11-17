@@ -1,9 +1,10 @@
 """Tool for measuring the resource utilization of a software program."""
-import colorama
-import psutil
 import argparse
 import time
 import sys
+
+import colorama
+import psutil
 from colorama import Fore, Style
 
 result = {
