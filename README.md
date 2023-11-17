@@ -35,6 +35,14 @@ If you press ```Crtl + C``` the script will stop printing all test results
 - Maximum values
 - Time of execution
 
+## Notes
+
+*I use this script for meseauring the resourse used by the* [VirgilAI](https://github.com/Retr0100/VirgilAI)
+
+## Example
+
+![img_example](assets/Screenshot%202023-11-17%20141949.png)
+
 ## Other
 
 ### [VirgilAI](https://github.com/Retr0100/VirgilAI)
