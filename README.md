@@ -1,4 +1,4 @@
-# PyBench ⛽ | Last docs update: 17/11/2023 (d/m/y)
+# VirgilBench ⛽ | Last docs update: 17/11/2023 (d/m/y)
 
 ## Introduction 📝
 
