@@ -37,7 +37,8 @@ If you press ```Crtl + C``` the script will stop printing all test results
 
 ## Notes
 
-*I use this script for meseauring the resourse used by the* [VirgilAI](https://github.com/Retr0100/VirgilAI)
+- *I use this script for meseauring the resourse used by the* [VirgilAI](https://github.com/Retr0100/VirgilAI)
+- I am thinking of redoing the ho script/tool in rust
 
 ## Example
 
