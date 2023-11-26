@@ -3,13 +3,13 @@ mod utilities;
 use std::process::exit;
 use std::sync::atomic::Ordering;
 use std::collections::HashMap;
-use std::{thread};
+use std::thread;
 use std::time::Duration;
-use std::sync::atomic::{AtomicBool};
+use std::sync::atomic::AtomicBool;
 use std::sync::Arc;
 use std::time::Instant;
 
-use clap::{Parser};
+use clap::Parser;
 use colored::Colorize;
 use sysinfo::*;
 use indicatif::{ProgressBar, ProgressStyle};
@@ -109,7 +109,7 @@ fn limit(pid: Pid, duration: u32, update: u64){
         }
         thread::sleep(Duration::from_millis(update));
     }
-    println!(" {}", get_hashmap_string(&final_value));
+    println!("{}\n{}"," - [FINAL VALUE] - ".yellow(), get_hashmap_string(&final_value));
     remove_file();
     exit(0);
 }
@@ -147,7 +147,7 @@ fn main() {
     ctrlc::set_handler(move || {
         r.store(false, Ordering::SeqCst);
         match read_hashmap() {
-            Ok(content) => println!("\n{}", content),
+            Ok(content) => println!("\n {}\n{}"," - [FINAL VALUE] - ".yellow(), content),
             Err(e) => eprintln!("Error while reading the file: {}", e),
         }
         remove_file();
