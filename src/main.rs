@@ -19,7 +19,7 @@ use crate::utilities::*;
 
 
 #[derive(Parser, Debug)]
-#[clap(name = "ProjectVirgil", version = "0.1.0", about = "A simple benchmark tool for see the resource consumption of a process")]
+#[clap(name = "VirgilBench", version = "0.1.0", about = "A simple benchmark tool for see the resource consumption of a process")]
 #[command(author, version, about, long_about = None)]
 
 struct Args {
