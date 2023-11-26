@@ -1,5 +1,7 @@
 # VirgilBench ⛽ | Last docs update: 26/11/2023 (d/m/y)
 
+[![Rust](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml/badge.svg)](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml)
+
 ## Introduction 📝
 
 ***VirgilBench*** is a simple software, written in Rust, designed to monitor and analyze the performance and resources used by specific processes running on your computer. This tool is indispensable for developers and system analysts
