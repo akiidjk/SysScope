@@ -76,6 +76,7 @@ fn display(sys: &mut System, pid: Pid, pb: &ProgressBar, hashmap: &mut HashMap<&
 
     } else {
         println!("The process with pid {} is terminated or not exist", pid);
+	exit(1);
     }
 }
 
@@ -111,7 +112,7 @@ fn limit(pid: Pid, duration: u32, update: u64){
     }
     println!("{}\n{}"," - [FINAL VALUE] - ".yellow(), get_hashmap_string(&final_value));
     remove_file();
-    exit(0);
+    exit(1);
 }
 
 fn no_limit(pid: Pid, update: u64){
