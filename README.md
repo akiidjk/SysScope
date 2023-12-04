@@ -33,3 +33,21 @@ virgilbench.exe [options]
 ## Demo 🔬
 
 ![demo_image](assets/Screenshot%202023-11-26%20112859.png)
+
+
+### Contact me
+
+For code related issues you can use github directly for other collaborations or alerts write to this email <projectvirgilai@gmail.com>
+
+If you want to support a small developer take a [**special link**](https://www.paypal.me/Retr0jk)
+
+
+<a href="https://www.paypal.com/paypalme/Retr0jk">
+  <img width = 200 align="center" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+</a>
+</div>
+
+### Licence
+
+- AGPL-3.0 licence
+- [LICENSE FILE](https://github.com/Retr0100/VirgilAI/blob/master/LICENSE)
