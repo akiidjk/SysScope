@@ -75,8 +75,8 @@ fn display(sys: &mut System, pid: Pid, pb: &ProgressBar, hashmap: &mut HashMap<&
         pb.set_position(process.cpu_usage() as u64 / number_cores as u64);
 
     } else {
-        println!("The process with pid {} is terminated or not exist", pid);
-	exit(1);
+        println!("The process with pid {} is terminated or not exist.", pid);
+        println!("Click ctrl+c to print the results, if any.")
     }
 }
 
