@@ -1,10 +1,10 @@
-# VirgilBench ⛽ | Last docs update: 28/11/2023 (d/m/y)
+# SysScope ⛽ | Last docs update: 28/11/2023 (d/m/y)
 
-[![Rust](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml/badge.svg)](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml)
+[![Rust](https://github.com/Retr0100/SysScope/actions/workflows/rust.yml/badge.svg)](https://github.com/Retr0100/SysScope/actions/workflows/rust.yml)
 
 ## Introduction 📝
 
-***VirgilBench*** is a simple software, written in Rust, designed to monitor and analyze the performance and resources used by specific processes running on your computer. This tool is indispensable for developers and system analysts
+***SysScope*** is a simple software, written in Rust, designed to monitor and analyze the performance and resources used by specific processes running on your computer. This tool is indispensable for developers and system analysts
 
 ## Supported all platform
 Rust is a compiled language like C or C++ and is possible to compile on all machine, [installing cargo and the compilar](https://www.rust-lang.org/tools/install) and running `cargo build` in the src directory.
@@ -19,7 +19,7 @@ You can or download the executable from the last [release]() of repository or do
 From line of command:
 
 ``` powershell
-virgilbench.exe [options]
+sysscope.exe [options]
 ```
 
 ## Option list & explation 📄
