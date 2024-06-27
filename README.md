@@ -1,6 +1,6 @@
 # SysScope ⛽ | Last docs update: 28/11/2023 (d/m/y)
 
-[![Rust](https://github.com/Retr0100/SysScope/actions/workflows/rust.yml/badge.svg)](https://github.com/Retr0100/SysScope/actions/workflows/rust.yml)
+[![Rust](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml/badge.svg)](https://github.com/Retr0100/VirgilBench/actions/workflows/rust.yml)
 
 ## Introduction 📝
 
