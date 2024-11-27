@@ -19,11 +19,11 @@ use crate::utilities::*;
 
 
 #[derive(Parser, Debug)]
-#[clap(name = "VirgilBench", version = "0.1.0", about = "A simple benchmark tool for see the resource consumption of a process")]
+#[clap(name = "SysScope", version = "1.0.0", about = "A simple analyzer tool for see the resource consumption of a process")]
 #[command(author, version, about, long_about = None)]
 
 struct Args {
-    #[arg(name="pid",short, long, default_value = "0", help="The pid of process to monitoring")] //, about = "The process ID to monitor" error_message = "The pid is an integer not a string"
+    #[arg(name="pid",short, long, default_value = "0", help="The pid of process to monitoring")] 
     pid: Pid,
 
     #[arg(name="duration",short, long, default_value = "0", help="The duration of benchmark")]
@@ -33,12 +33,12 @@ struct Args {
     update: u64,
 }
 static  BANNER: &str = r#"
-______                     _     ___  ___              _
-| ___ \                   | |    |  \/  |             | |
-| |_/ /  ___  _ __    ___ | |__  | .  . |  __ _  _ __ | | __
-| ___ \ / _ \| '_ \  / __|| '_ \ | |\/| | / _` || '__|| |/ /
-| |_/ /|  __/| | | || (__ | | | || |  | || (_| || |   |   <
-\____/  \___||_| |_| \___||_| |_|\_|  |_/ \__,_||_|   |_|\_\
+ ____            ____                       
+/ ___| _   _ ___/ ___|  ___ ___  _ __   ___ 
+\___ \| | | / __\___ \ / __/ _ \| '_ \ / _ \
+ ___) | |_| \__ \___) | (_| (_) | |_) |  __/
+|____/ \__, |___/____/ \___\___/| .__/ \___|
+       |___/                    |_|         
 "#;
 
 pub enum Results {
